@@ -5,10 +5,20 @@ html{
     font-size: 30px;
     font-weight: 300;
     line-height: 1.5;
-}
+    text-shadow: 2px, 2px, #ff0000;
+    background-image: url(assets/Rick%20prison.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain
 
-header{
-    
+}
+    h1,h2,h3,h4{
+        color: rgba(138, 43, 226,.8);
+        text-align: right
+            
+    }
+header a:hover{
+    color: bisque;
 }
 
 body{
@@ -16,6 +26,15 @@ body{
     margin: 40;
     font-size: 18px;
     border border-style: outset;
-    border: 2px solid deeppink;
+    border: 20px solid deeppink;
     font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica';
+    
 }
+
+p{
+        background-color: rgba(240, 248, 255,.8);
+}
+aside{
+display: block    
+}
+
