@@ -8,29 +8,61 @@ html{
     text-shadow: 2px, 2px, #ff0000;
     background-image: url(assets/Rick%20prison.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain
+    background-position: 50px,;
+    background-size: 50px
+/*    background-size: contain*/
 
 }
     h1,h2,h3,h4{
         color: rgba(138, 43, 226,.8);
-        text-align: right
+        text-align: right;
+            text-transform: uppercase;
             
     }
+a{
+    text-decoration: none;
+}
+header li{
+    display: inline-block;
+}
+header li a{
+    color: black;
+}
+/*
 header a:hover{
     color: bisque;
 }
+*/
 
+header li:hover{
+    box-shadow: inset 0 3px 0 0 #45a2da;
+    color: #45a2da;
+}
+.alt-link{
+    background-color: black;
+}
+/*
+ul{
+    background-color: black;
+    color: aliceblue;
+}
+*/
+.alt-link a{
+    color: ghostwhite;
+     font-weight: 500;
+}
 body{
     padding: 20;
     margin: 40;
     font-size: 18px;
     border border-style: outset;
-    border: 20px solid deeppink;
+    border: 2px solid deeppink;
     font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica';
     
 }
-
+class -classes{
+    background-color: blueviolet;
+}
 p{
         background-color: rgba(240, 248, 255,.8);
 }
