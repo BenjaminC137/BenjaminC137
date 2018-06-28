@@ -41,12 +41,14 @@ header li:hover{
 .alt-link{
     background-color: black;
 }
-/*
 ul{
     background-color: black;
     color: aliceblue;
+    list-style:circle; 
+    
 }
-*/
+
+
 .alt-link a{
     color: ghostwhite;
      font-weight: 500;
@@ -68,5 +70,18 @@ p{
 }
 aside{
 display: block    
+}
+table{
+    width: 50vw;
+    
+}
+tr.even{
+    background-color: aqua;
+}
+
+tr:hover{
+    color:red;
+/*    background-color: beige;*/
+    background-image: url(assets/Rick%20prison.png);
 }
 
