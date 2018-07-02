@@ -1,24 +1,39 @@
 html{
-    background-color:azure;
+    background-color:whitesmoke;
     color: rgb(184,134,11);
     font-family: sans-serif;
     font-size: 30px;
     font-weight: 300;
     line-height: 1.5;
     text-shadow: 2px, 2px, #ff0000;
-    background-image: url(assets/Rick%20prison.png);
+}
+       .container{
+            width: 76%;
+            padding-right: 30px;
+            padding-left: 30px;
+            margin: 0 auto;
+        }
+h1{
+    background-image: url(assets/logo.png);
     background-repeat: no-repeat;
     background-position: 50px,;
-    background-size: 50px
-/*    background-size: contain*/
-
+    background-size: 100px
 }
     h1,h2,h3,h4{
-        color: rgba(138, 43, 226,.8);
+        
+        color: rgba(138, 143, 226,.8);
         text-align: right;
             text-transform: uppercase;
             
     }
+            {
+            box-sizing: border-box;
+            
+ 
+             
+}
+    box-sizing: border-box;
+
 a{
     text-decoration: none;
 }
@@ -26,51 +41,51 @@ header li{
     display: inline-block;
 }
 header li a{
-    color: black;
+    color: darkblue;
 }
-/*
-header a:hover{
-    color: bisque;
-}
-*/
+
 
 header li:hover{
     box-shadow: inset 0 3px 0 0 #45a2da;
     color: #45a2da;
 }
 .alt-link{
-    background-color: black;
+    background-color: darkblue;
 }
 ul{
-    background-color: black;
-    color: aliceblue;
+    background-color: whitesmoke;
+    color: black;
     list-style:circle; 
     
 }
 
 
 .alt-link a{
-    color: ghostwhite;
-     font-weight: 500;
+    color: lightblue;
+    font-weight: 500;
 }
+
 body{
-    padding: 20;
-    margin: 40;
+    padding: 40;
+    margin: 20;
     font-size: 18px;
     border border-style: outset;
-    border: 2px solid deeppink;
+    border: 2px solid skyblue;
     font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica';
     
 }
 class -classes{
-    background-color: blueviolet;
+    background-color: skyblue;
 }
+
 p{
         background-color: rgba(240, 248, 255,.8);
 }
+
 aside{
 display: block    
 }
+
 table{
     width: 50vw;
     
@@ -81,7 +96,50 @@ tr.even{
 
 tr:hover{
     color:red;
-/*    background-color: beige;*/
-    background-image: url(assets/Rick%20prison.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+button{
+    border-radius: 10px;
+    padding: 10px;
+}
+input{
+    border-radius: 13px;
+    border-bottom-style:solid;
+        border-right-style: solid
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
+.column3{
+    width: 30vw;
+    float: left;
+}
+
+.column6{
+    width: 20vw;
+    float: left;
+}
+.column12{
+    width: 25vw;
+    float: right;
+}
+    
+}
+image{
+    text-align: center;
+    border border-bottom-style: outset
+    border: 20px;
+    max-width: 100%;
+}
+.clear>{
+    clear: both;
+    box-sizing: border-box;
+    border-top: 20px;
+        content: "";
+    display: table;
+    clear: both;
+}
