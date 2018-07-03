@@ -14,7 +14,7 @@ h1,h2,h3,h4{
         text-align: right;
         text-transform: uppercase;   
 	animation-name: linkhover;
-	animation-duration: 500ms;
+	animation-duration: 5s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 	animation-timing-function: ease-in-out;
@@ -97,7 +97,7 @@ header li:hover{
     border-color:crimson;
     border-width: thick;
 	animation-name:	linkhover2;
-	animation-duration: 500ms;
+	animation-duration: 200ms;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 }
@@ -218,7 +218,7 @@ display:none;
 }
 @keyframes linkhover{
 	from{
-		color: green;
+		color: crimson;
 	}
 	to{
 		color: red;
@@ -243,14 +243,14 @@ display:none;
 
 .fader{
 	animation-name: fade;
-	animation-duration: 1s;
+	animation-duration: 10s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 }
 
 @keyframes fade{
 	0%{
-		opacity: 0;
+		opacity: 25;
 	}
 	50%{
 		opacity: 100;
