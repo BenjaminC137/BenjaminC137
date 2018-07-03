@@ -6,13 +6,16 @@ html{
     font-weight: 300;
     line-height: 1.5;
     text-shadow: 2px, 2px, 2px #ff0000;
+	text-decoration: none;
 }
-   .flexcontainer{
+.flexcontainer{
        display: flex;
        flex-direction: row;
-       justify-content: flex-end;
-       height: 80px;
-
+    }
+.flexcontainerfooter{
+       display: flex;
+       flex-direction: row;
+       justify-content:space-between;
     }
 .item{
  
@@ -26,9 +29,9 @@ margin-right: auto;
 }
 
 .item a{
-        text-decoration: none;
+   text-decoration: none;
    box-sizing: border-box;
-    display: inline-block;
+   display: inline-block;
 /*    background-color: aqua;*/
     border-color:crimson;
     border-width: thick;
@@ -39,15 +42,6 @@ margin-right: auto;
         padding-left: 30px;
         margin: 0 auto;
 }
-
-/*
-h1{
-    background-image: url(assets/logo.png);
-    background-repeat: no-repeat;
-    background-position: 50px,;
-    background-size: 100px
-}
-*/
 
 h1,h2,h3,h4{
         
@@ -83,7 +77,27 @@ ul{
     color: lightblue;
     font-weight: 500;
 }
+.words{
+	   display: flex;
+       flex-direction: row;
+       justify-content: flex-start;
+}
+.words a{
+	        text-decoration: none;
 
+}
+.worditem{
+	justify-content: flex-end;
+}
+.worditem-1{
+	margin-right: auto;
+
+}
+.pictures{
+	   display: flex;
+       flex-direction: row;
+       justify-content: flex-end;
+}
 body{
     padding: 40px;
     margin: 20px;
@@ -92,22 +106,13 @@ body{
     border-radius: 25px;
     font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica';
 }
-class -classes{
-    background-color: skyblue;
-}
-
-aside{
-display: block    
-}
 
 table{
     width: 50vw;
-    
 }
 tr.even{
     background-color: whitesmoke;
 }
-
 tr:hover{
     color:red;
     background-size: contain;
@@ -128,6 +133,7 @@ input{
     clear: both;
 }
 
+/*
 .column3{
     width: 30vw;
     float: left;
@@ -139,16 +145,14 @@ input{
     float: left;
         padding: 10px;
     margin: 10px;
-
 }
 .column12{
     width: 25vw;
     float: left;
         padding: 10px;
     margin: 10px;
-
-    
 }
+*/
 image{
     text-align: center;
     border border-bottom-style: outset
@@ -174,10 +178,7 @@ image{
     flex-direction: column;
 }
     body{
-        
         background-color: ghostwhite;
-        
-        
         }
         .hidden-small
     { 
